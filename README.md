@@ -3,4 +3,4 @@ A Ti-84 Plus CE program that is helps you with math. Right now it is pretty basi
 is Pythagorean Thereom, Slope Finder, Distance Formula, Midpoint Formula, and Leg Finder.
 
 # Instructions
-To download this program on the calculator download the file, and then transfer it to your calculator.
+To download this program on the calculator download MathHelp.8xp, and then transfer it to your calculator.
