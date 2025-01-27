@@ -2,7 +2,7 @@
 :ClrDraw
 :ClrHome
 :Lbl A
-:Menu("Math Help","Pythagorean",B,"Slope",C,"Distance",D,"Leg",E,"Midpoint",F,"Exit",G
+:Menu("Math Help","Pythagorean",B,"Slope",C,"Distance",D,"Leg",E,"Midpoint",F,"Circumference",G,"Exit",a
 :Lbl B
 :ClrHome
 :Input "What is A:",H
@@ -54,7 +54,7 @@
 V^2→V
 :V-U→W
 :√(W)→W
-:Disp "The ANswerr IS:",W
+:Disp "The Answer Is:",W
 :Pause
 :ClrHome
 :Goto A
@@ -75,3 +75,12 @@ V^2→V
 :Goto A
 :Lbl G
 :Clrhome
+:Input "What is the Radius:",b
+:2b→b
+:bπ→b
+:Disp "The Answer Is:",b
+:Pause
+:ClrHome
+:Goto A
+:Lbl a
+:ClrHome
