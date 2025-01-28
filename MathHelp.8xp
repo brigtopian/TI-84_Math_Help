@@ -2,7 +2,7 @@
 :ClrDraw
 :ClrHome
 :Lbl A
-:Menu("Math Help","Pythagorean",B,"Slope",C,"Distance",D,"Leg",E,"Midpoint",F,"Circumference",G,"Exit",a
+:Menu("Math Help","Pythagorean",B,"Slope",C,"Distance",D,"Leg",E,"Midpoint",F,"Circumference",G,"Degree Converter",H,"Exit",I
 :Lbl B
 :ClrHome
 :Input "What is A:",H
@@ -75,12 +75,37 @@ V^2→V
 :Goto A
 :Lbl G
 :Clrhome
-:Input "What is the Radius:",b
-:2b→b
-:bπ→b
-:Disp "The Answer Is:",b
+:Input "What is the Radius:",B
+:2B→B
+:Bπ→B
+:Disp "The Answer Is:",B
 :Pause
 :ClrHome
 :Goto A
-:Lbl a
+:Lbl H
+:Menu("Degree Converter","C to F",K,"F to C",L,"Back",M
+:Lbl K
+:ClrHome
+:Input "Fahrenheit Is?",A
+:A-32→A
+:5A→A
+:A/9→A
+:Disp "Celsius Is:",A
+:Pause
+:ClrHome
+:Goto A
+:Lbl L
+:ClrHome
+:Input "Celsius Is?",B
+:9B→B
+:B/5→B
+:B+32→B
+:Disp "Fahrenheit Is:",B
+:Pause
+:ClrHome
+:Goto A
+:Lbl M
+:ClrHome
+:Goto A
+:Lbl I
 :ClrHome
